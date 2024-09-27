@@ -1,0 +1,67 @@
+            body{
+                background-color:rgb(250, 241, 207);
+                color: black;
+                font-size: 1.1em;
+                padding: 5px;
+            }  
+            h1, h2, p, table, ol{
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            }
+            h1 {
+                color: rgba(168, 130, 204, 0.644);
+            }
+            h1:hover{
+                color: rgb(168, 130, 204);
+            }
+            h2 {
+                text-indent: 50px;
+                color: goldenrod;
+            }
+            h2:hover{
+                color: rgba(218, 165, 32, 0.582);
+            }
+            p {
+                margin: 20px;
+                color: cadetblue;
+                font-size: 1.0em;             
+                font-weight: lighter;
+                text-decoration: none;
+            }
+            a {
+                color: cornflowerblue;
+            }
+            a:hover{
+                color: rgba(171, 75, 255, 0.692);
+            }  
+                        
+            .end{
+                padding: 30px;
+            }
+            .end > p{
+                font-size: 1.2em;
+                color: darkcyan;
+            }
+            .end > h1{
+                color: rgba(3, 161, 108, 0.795);
+                font-size: 1.5em;
+                font-weight: lighter;
+            }
+            .end > h1:hover{
+                color: rgb(3, 161, 108);
+            }
+            table {
+                color: darkcyan;
+            }
+            table:hover{
+                background: url("img/cattism.jpg");
+                background-size: contain;
+            }
+            ol {
+                margin-left: 50px;
+                color:darkolivegreen;
+            }        
+            img{
+                margin-left: 20px;
+                padding: 10px;
+                width: 20%;               
+            }             
