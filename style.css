@@ -1,67 +1,118 @@
-            body{
-                background-color:rgb(250, 241, 207);
+            body {
+                background-color: rgb(250, 241, 207);
                 color: black;
                 font-size: 1.1em;
                 padding: 5px;
-            }  
-            h1, h2, p, table, ol{
+            }
+
+            h1,
+            h2,
+            p,
+            table,
+            ol {
                 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
             }
+
             h1 {
                 color: rgba(168, 130, 204, 0.644);
             }
-            h1:hover{
+
+            h1:hover {
                 color: rgb(168, 130, 204);
             }
+
             h2 {
                 text-indent: 50px;
                 color: goldenrod;
             }
-            h2:hover{
+
+            h2:hover {
                 color: rgba(218, 165, 32, 0.582);
             }
+
             p {
                 margin: 20px;
                 color: cadetblue;
-                font-size: 1.0em;             
+                font-size: 1.0em;
                 font-weight: lighter;
                 text-decoration: none;
             }
+
             a {
                 color: cornflowerblue;
             }
-            a:hover{
+
+            a:hover {
                 color: rgba(171, 75, 255, 0.692);
-            }  
-                        
-            .end{
+            }
+
+            .end {
                 padding: 30px;
             }
-            .end > p{
+
+            .end>p {
                 font-size: 1.2em;
                 color: darkcyan;
             }
-            .end > h1{
+
+            .end>h1 {
                 color: rgba(3, 161, 108, 0.795);
                 font-size: 1.5em;
                 font-weight: lighter;
             }
-            .end > h1:hover{
+
+            .end>h1:hover {
                 color: rgb(3, 161, 108);
             }
-            table {
+
+            #desc table {
                 color: darkcyan;
+                border-radius: 3px;
+                background-image: linear-gradient(rgba(0, 153, 255, 0.493),rgb(152, 226, 201));
             }
-            table:hover{
+
+            td, table {
+                border-width: 2px;
+                border-color: rgb(15, 146, 96);
+                border-style: solid;     
+            }
+
+            td {
+                text-align: center;
+                text-transform: none;
+                line-height: 14px;
+                text-decoration: none;
+                text-shadow: 1px 1px cornflowerblue;
+            }
+
+            #tab:hover {
                 background: url("img/cattism.jpg");
                 background-size: contain;
             }
+
             ol {
                 margin-left: 50px;
-                color:darkolivegreen;
-            }        
-            img{
+                color: darkolivegreen;
+            }
+
+            img {
                 margin-left: 20px;
                 padding: 10px;
-                width: 20%;               
-            }             
+                width: 20%;
+                border-radius: 20%;
+            }
+
+            #uwu {
+                border: solid 1px darkcyan;
+                color: rgba(0, 139, 139, 0.13);
+                border-radius: 100px;
+                padding: 10px;
+                padding-right: 15px;
+                padding-left: 15px;
+                writing-mode: vertical-lr;
+                font-size: 25px;
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                margin-left: 1000px;
+                background: url("img/tismtrans.png");
+                background-size: cover;
+            }
